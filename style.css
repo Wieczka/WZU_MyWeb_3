@@ -44,7 +44,7 @@ nav .logo{
     position: absolute;
     margin-top: 10px;
     margin-left: -10px;
-    color: #4864ff;
+    color: #f5c400;
 }
 nav ul{
     text-align: left;
@@ -68,7 +68,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #4864ff;
+    background: #f5c400;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -78,8 +78,8 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .toggle-btn{
-    background: #66ff48;
-    color: #fff;
+    background: #f5c400;
+    color: #111;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -102,7 +102,7 @@ nav ul li a:hover::after{
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #4864ff;
+    color: #f5c400;
 }
 .header-text p{
     font-size: 33px;
@@ -158,7 +158,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #4864ff;
+    background: #f5c400;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -172,7 +172,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #4864ff;
+    color: #f5c400;
     font-size: 14px;
 }
 .tab-contents{
@@ -222,8 +222,14 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #4864ff;
+    background: #f5c400;
     transform: translateY(-10px);
+}
+.services-list div:hover i,
+.services-list div:hover h2,
+.services-list div:hover p,
+.services-list div:hover a{
+    color: #111;
 }
 #portfolio{
     padding: 50px 0;
@@ -252,7 +258,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#4864ff);
+    background: linear-gradient(rgba(0,0,0,0.6),#f5c400);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -270,18 +276,18 @@ nav ul li a:hover::after{
 .layer h3{
     font-weight: 700;
     margin-bottom: 20px;
-    color: #fff;
+    color: #111;
 }
 .layer p{
-    color:#fff;
+    color:#111;
 }
 .layer a{
     margin-top: 20px;
-    color: #4864ff;
+    color: #f5c400;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    background: #fff;
+    background: #111;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -297,7 +303,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #4864ff;
+    border: 1px solid #f5c400;
     padding: 15px 40px;
     text-decoration: none;
     border-radius: 50px;
@@ -306,7 +312,8 @@ nav ul li a:hover::after{
     
 }
 .btn:hover{
-    background: #4864ff;
+    background: #f5c400;
+    color: #111;
 }
 /*--contact--*/
 #contact{
@@ -322,7 +329,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #4864ff;
+    color: #f5c400;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -338,21 +345,21 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #4864ff;
+    color: #f5c400;
     display: inline-block;
     /*transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #4864ff;
+    color: #f5c400;
     transform: translateY(-5px);*/
 }
 .btn.btn2{
     display: block;
-    background: #4864ff;
+    background: #f5c400;
+    color: #111;
     opacity: 0.7;
     transition: 0.3s;
     cursor: pointer;
-    color: #fff;
     margin: 0;
     margin-top: 20px; 
     margin-bottom: 30px;
@@ -430,7 +437,7 @@ nav .fa-solid{
      }
 
      nav ul{
-        background: #4864ff;
+        background: #f5c400;
         position: fixed;
         top: 0;
         right: -200px;
@@ -444,16 +451,19 @@ nav .fa-solid{
         display: block;
         margin: 25px;
      }
+     nav ul li a{
+        color: #111;
+     }
      nav ul .fa-solid{
         position: absolute;
         top: 5px;
         left: 20px;
         cursor: pointer;
-        
+        color: #111;
     }
     .toggle-btn{
-        background: #4864ff;
-        color: #fff;
+        background: #f5c400;
+        color: #111;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -519,7 +529,7 @@ nav .fa-solid{
      }
 
      nav ul{
-        background: #4864ff;
+        background: #f5c400;
         position: fixed;
         top: 0;
         right: -200px;
@@ -533,16 +543,19 @@ nav .fa-solid{
         display: block;
         margin: 25px;
      }
+     nav ul li a{
+        color: #111;
+     }
      nav ul .fa-solid{
         position: absolute;
         top: 5px;
         left: 20px;
         cursor: pointer;
-        
+        color: #111;
     }
     .toggle-btn{
-        background: #4864ff;
-        color: #fff;
+        background: #f5c400;
+        color: #111;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -580,8 +593,6 @@ nav .fa-solid{
     color: #61b752;
     display: inline-block;
     margin-left: 0;
-  
-/*opóźnianie przesuwania tekstu*/
 }
 .slide-left{
     animation: slideleft 2s linear forwards;
@@ -603,5 +614,3 @@ p.slide-left{
 .links.slide-left{
     animation-delay: 0s;
 }
-
-
